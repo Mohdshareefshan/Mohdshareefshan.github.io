@@ -1,0 +1,133 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  text-align: center;
+}
+
+header {
+  background-color: #56bdf0;
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff6347;
+}
+
+main {
+  padding: 40px 0;
+  width: 100%;
+}
+
+.destination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.destination img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px 0 0 8px;
+}
+
+.destination .content {
+  padding: 20px;
+  width: 50%;
+}
+
+.destination h2 {
+  margin-bottom: 10px;
+}
+
+.destination p {
+  margin-bottom: 20px;
+}
+
+.destination a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.destination a:hover {
+  background-color: #ff6347;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+}
+.back-home-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.back-home-button {
+  display: inline-block;
+  padding: 12px 40px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  
+}
+
+.back-home-button:hover {
+  background-color: #ff6347;
+}
+

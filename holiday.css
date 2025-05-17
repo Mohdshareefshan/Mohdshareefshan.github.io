@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  .holiday-destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .destination-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .destination-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .destination-card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .destination-card p {
+    padding: 0 15px 10px;
+  }
+  
+  details {
+    margin-bottom: 15px;
+  }
+  
+  details summary.btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px auto;
+    background-color: #003366;
+    color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  details[open] summary.btn {
+    background-color: #0055a5;
+  }
+  
+  .toggle-details {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .toggle-details ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-details li {
+    margin-bottom: 8px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #0055a5;
+  }
+  
+  footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .back-home-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .back-home-button {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .back-home-button:hover {
+    background-color: #ff6347;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .toggle-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #006994;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #005377;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  
+    
